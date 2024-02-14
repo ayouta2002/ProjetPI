@@ -24,10 +24,10 @@ public class MainProg {
         //******RESERVATION*****//
 
         ReservationService rs = new ReservationService();
-       rs.ajouter(new Reservation(4, "restaurant",4));
+       //rs.ajouter(new Reservation(4, "restaurant",4));
         //rs.modifier(new Reservation(1, 7, "cafe","mardi",5));
         //rs.supprimer(new Reservation(1, 7, "cafe","mardi",5));
-       // System.out.println(rs.afficher());
+       System.out.println(rs.afficher());
 
 
         //******TABLE*****//
