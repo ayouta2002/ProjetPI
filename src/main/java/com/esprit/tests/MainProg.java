@@ -14,28 +14,28 @@ public class MainProg {
 
         //******ZONES*****//
 
-        //ZonesService zs = new ZonesService() ;
+        ZonesService zs = new ZonesService() ;
         //zs.ajouter(new Zones("cafe", "justeboisson",15));
-        //zs.modifier(new Zones(1, "resto", "plats",20));
-        //zs.supprimer(new Zones(3, "cafe", "justeboisson",15));
+        //zs.modifier(new Zones(4, "resto", "plats",22));
+        //zs.supprimer(new Zones(2, "cafe", "justeboisson",15));
         //System.out.println(zs.afficher());
 
 
         //******RESERVATION*****//
 
         ReservationService rs = new ReservationService();
-       //rs.ajouter(new Reservation(4, "restaurant",4));
-        //rs.modifier(new Reservation(1, 7, "cafe","mardi",5));
-        //rs.supprimer(new Reservation(1, 7, "cafe","mardi",5));
-       System.out.println(rs.afficher());
+       rs.ajouter(new Reservation(55, "restaurant",55));
+        //rs.modifier(new Reservation(3, 8, "cocktail",14));
+        //rs.supprimer(new Reservation(3, 8, "cocktail",14));
+       //System.out.println(rs.afficher());
 
 
         //******TABLE*****//
 
         TableService ts = new TableService();
-        //ts.ajouter(new Tab(4,4));
-        //ts.modifier(new Tab(1,8,6));
-        //ts.supprimer(new Tab(1,8,6));
+        //ts.ajouter(new Tab(8,4));
+        //ts.modifier(new Tab(4,9,4));
+        //ts.supprimer(new Tab(4,9,4));
         //System.out.println(ts.afficher());
 
     }
